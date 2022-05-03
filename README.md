@@ -1,6 +1,7 @@
 # Crypto_Clustering
 
-This analysis looks at the different types of cryptocurrencies and how they should be grouped towards creating a classification. This was done by undertaking these 4 tasks:
+The purpose of this project is to use unsupervised machine learning to analyze a database of cryptocurrencies and create a report including the traded cryptocurrencies classified by group according to their features.
+This classification report could be used by an investment bank to propose a new cryptocurrency investment portfolio to its clients.
 
 ## Goals and steps
 
@@ -20,3 +21,10 @@ This plot includes the following parameters on the plot: hover_name="CoinName" a
 This plot has x="TotalCoinsMined" and y="TotalCoinSupply" to contrast the number of available coins versus the total number of mined coins. Use the hover_cols=["CoinName"] parameter to include the cryptocurrency name on each data point:
 
 ![image](https://user-images.githubusercontent.com/31675832/153493062-30047938-e5cd-4ee2-8837-aea29fefc79e.png)
+
+## Summary 
+
+We have identified the classification of 532 cryptocurrencies based on similarities of their features.
+Particularities of each group need to be analyzed to determined their performance and potential interest for the investment bank's clients.
+
+
